@@ -2,7 +2,7 @@
 
 14 years of shipping things and being on-call when they break. this is where i keep the notes.
 
-not a tutorial series. not a certification guide. no "10x your k8s game" energy here. just opinionated field notes from real production — the kind of stuff i wish someone had written down before i had to learn it the hard way at 2am.
+not a tutorial series. not a certification guide. no "10x your k8s game" energy here. just opinionated field notes from real production — the kind of stuff i wish someone had written down before i learned it the hard way at 2am.
 
 if your pipeline's held together by one guy named dave, i've been dave.
 
