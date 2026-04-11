@@ -16,11 +16,16 @@ twitter: [@quant_papi](https://twitter.com/quant_papi)
 
 ## notes
 
-- [kubectl auth at 3am](notes/kubectl-auth-at-3am.md)
-- [cpu throttling is invisible](notes/cpu-throttling-is-invisible.md)
-- [priorityclasses and topology spread](notes/priorityclasses-and-topology-spread.md)
-- [terraform apply is roulette](notes/terraform-apply-is-roulette.md)
-- [kind → k3s → eks](notes/kind-to-k3s-to-eks.md)
-- [pin your hashes](notes/pin-your-hashes.md)
-- [headless services for stateful workloads](notes/headless-services-for-stateful.md)
-- [copy_tags_to_snapshot](notes/copy-tags-to-snapshot.md)
+**kubernetes**
+- [kubectl auth at 3am](notes/kubectl-auth-at-3am.md) — service account token expiry, OIDC vs x509 at scale
+- [cpu throttling is invisible](notes/cpu-throttling-is-invisible.md) — why your dashboard shows 40% cpu while your service is slow
+- [priorityclasses and topology spread](notes/priorityclasses-and-topology-spread.md) — eviction isn't random if you configure it, and chaos testing is not optional
+- [headless services for stateful workloads](notes/headless-services-for-stateful.md) — clusterIP: None and why kafka doesn't belong behind a load balancer
+- [kind → k3s → eks](notes/kind-to-k3s-to-eks.md) — the progression for actually understanding kubernetes before AWS hides it from you
+
+**terraform / aws**
+- [terraform apply is roulette](notes/terraform-apply-is-roulette.md) — the plan review is the whole point; don't automate past it
+- [copy_tags_to_snapshot](notes/copy-tags-to-snapshot.md) — the one-liner that keeps your RDS snapshots from failing compliance
+
+**supply chain**
+- [pin your hashes](notes/pin-your-hashes.md) — unpinned installs on boxes with credentials are a pending postmortem
