@@ -29,3 +29,11 @@ twitter: [@quant_papi](https://twitter.com/quant_papi)
 
 **supply chain**
 - [pin your hashes](notes/pin-your-hashes.md) — unpinned installs on boxes with credentials are a pending postmortem
+
+**build systems**
+- [cmake enable_language is a scope trap](notes/cmake-enable-language-scope.md) — function-scoped enable_language silently doesn't work, and cosmetic warnings aren't worth a red matrix
+
+**working in public**
+- [your fork ci can't see everything](notes/fork-ci-blind-spots.md) — self-hosted and secret-gated jobs don't run on forks; green on your fork ≠ green on the PR
+- [when in doubt, ship the revert](notes/ship-the-revert.md) — forward-fixing a red master under time pressure is how you break something else
+- [read AGENTS.md before you push](notes/agents-md-exists.md) — repo-level AI-contribution policies exist; follow them or disclose honestly
