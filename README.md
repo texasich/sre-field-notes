@@ -26,6 +26,7 @@ twitter: [@quant_papi](https://twitter.com/quant_papi)
 **terraform / aws**
 - [terraform apply is roulette](notes/terraform-apply-is-roulette.md) — the plan review is the whole point; don't automate past it
 - [copy_tags_to_snapshot](notes/copy-tags-to-snapshot.md) — the one-liner that keeps your RDS snapshots from failing compliance
+- [the 504 that only happens on large uploads](notes/alb-f5-504-large-uploads.md) — ALB idle timeout is global; split upload traffic at DNS to an F5 VIP instead
 
 **supply chain**
 - [pin your hashes](notes/pin-your-hashes.md) — unpinned installs on boxes with credentials are a pending postmortem
