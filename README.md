@@ -29,6 +29,7 @@ twitter: [@quant_papi](https://twitter.com/quant_papi)
 
 **supply chain**
 - [pin your hashes](notes/pin-your-hashes.md) — unpinned installs on boxes with credentials are a pending postmortem
+- [proxy age gates break everything you forgot to pin](notes/proxy-age-gates-break-unpinned-apps.md) — enforce pinning before you deploy org-wide age restrictions, not after
 
 **build systems**
 - [cmake enable_language is a scope trap](notes/cmake-enable-language-scope.md) — function-scoped enable_language silently doesn't work, and cosmetic warnings aren't worth a red matrix
