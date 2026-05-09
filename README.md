@@ -39,3 +39,4 @@ twitter: [@quant_papi](https://twitter.com/quant_papi)
 - [your fork ci can't see everything](notes/fork-ci-blind-spots.md) — self-hosted and secret-gated jobs don't run on forks; green on your fork ≠ green on the PR
 - [when in doubt, ship the revert](notes/ship-the-revert.md) — forward-fixing a red master under time pressure is how you break something else
 - [read AGENTS.md before you push](notes/agents-md-exists.md) — repo-level AI-contribution policies exist; follow them or disclose honestly
+- [scavenging the gcc15 wreckage](notes/scavenging-the-gcc15-wreckage.md) — the easy c23 bugs are gone; what's left takes more digging than coding
